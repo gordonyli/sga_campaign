@@ -18,9 +18,9 @@
     <link href="css/home.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="https://use.fontawesome.com/7a9dd80376.js"></script>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="js/jquery.js"></script>
@@ -32,7 +32,23 @@
 
 <body>
     <div id="bg_fade"></div>
-    <div id="sujayandrichard">Sujay & Richard</div>
+
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand sujayandrichard" href="#">Sujay & Richard</a>
+        <a class="navbar-brand navbar-right navbaritem" href="#" style="margin-right:1%; font-size: 2em;">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a class="navbar-brand navbar-right navbaritem" href="#">
+            <i class="fa fa-snapchat-square" aria-hidden="true"></i>
+        </a>
+        <a class="navbar-brand navbar-right navbaritem" href="#">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a class="navbar-brand navbar-right navbaritem" href="#">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+    </nav>
+
     <header id="myCarousel" class="carousel slide">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -41,21 +57,21 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('about-01.jpg'); background-position: 20% 5%;"></div>
+                <div class="fill" style="background-image:url('sujay.jpg'); background-position: 20% 5%;"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>All For One</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('about-02.jpg'); background-position: 20% 5%;"></div>
+                <div class="fill" style="background-image:url('richard.jpg'); background-position: 20% 5%;"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>#VoteSujayAndRichard</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('about-03.jpg'); background-position: 20% 1%;"></div>
+                <div class="fill" style="background-image:url('sujay1.jpg'); background-position: 20% 1%;"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2>Check Us Out</h2>
                 </div>
             </div>
         </div>
@@ -67,13 +83,31 @@
         </a>
     </header>
 
-    <div id="about_us" class="info_box hvr-grow-rotate hvr-trim"></div>
-    <div id="platform" class="info_box hvr-grow-rotate hvr-trim" ></div>
-    <div id="our_team" class="info_box hvr-grow-rotate hvr-trim" ></div>
+    <div id="about_us" class="info_box hvr-grow-rotate hvr-trim">
+        <i class="fa fa-info-circle info_box_pic" aria-hidden="true"></i>
+        <p class="info_box_text">What We're All About</p>
+    </div>
+    <div id="platform" class="info_box hvr-grow-rotate hvr-trim" >
+        <i class="fa fa-book info_box_pic_blue" aria-hidden="true"></i><br>
+        <p class="info_box_text_blue">Our Platform</p>
+    </div>
+    <div id="our_team" class="info_box hvr-grow-rotate hvr-trim" >
+        <i class="fa fa-users info_box_pic" aria-hidden="true"></i><br>
+        <p class="info_box_text">Meet Our Team</p>
+    </div>
     <br>
-    <div id="change_propic" class="info_box hvr-grow-rotate hvr-trim"></div>
-    <div id="social_media" class="info_box hvr-grow-rotate hvr-trim"></div>
-    <div id="email_list" class="info_box hvr-grow-rotate hvr-trim"></div>
+    <div id="change_propic" class="info_box hvr-grow-rotate hvr-trim">
+        <i class="fa fa-facebook info_box_pic_blue" aria-hidden="true"></i><br>
+        <p class="info_box_text_blue">Change Your Profile Picture</p>
+    </div>
+    <div id="social_media" class="info_box hvr-grow-rotate hvr-trim">
+        <i class="fa fa-phone info_box_pic" aria-hidden="true"></i><br>
+        <p class="info_box_text">Contact Us</p>
+    </div>
+    <div id="email_list" class="info_box hvr-grow-rotate hvr-trim">
+        <i class="fa fa-envelope info_box_pic_blue" aria-hidden="true"></i><br>
+        <p class="info_box_text_blue">Join our Email List</p>
+    </div>
     <div id="footer">Designed and Developed by Gordon Li</div>
 
     <script>
