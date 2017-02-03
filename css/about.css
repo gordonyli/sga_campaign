@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+    background-color: white !important;
+    z-index: 500;
+}
+#bg_fade {
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+}
+hr {
+    padding-top:0;
+    padding-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+    height: 5px;
+    background-color: #eeb211;
+    border: none;
+}
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #eeb211;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+    height: 15%;
+    margin-bottom: 0px !important;
+    text-align: center;
+}
+.navoptions {
+    text-align:center;
+    margin-left: 50%;
+}
+
+header.carousel {
+    height: 90%;
+    width: 100%;
+    padding-top: 5  %;
+}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#text_overlay {
+    position: absolute;
+    background:rgba(255,255,255,0.85);
+    height: 52%;
+    width: 45%;
+    z-index: 500;
+    margin-top: 15%;
+    animation-name: sweepHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1.2s;
+}
+#main_text {
+    font-family: 'Montserrat', sans-serif;
+    color: #00254c;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5%;
+}
+.aboutpics {
+    width: 310px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 4%;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.aboutinfo {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+    position: absolute;
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.bio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 2%;
+}
+.sujayandrichard {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #eeb211;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.navbaritem {
+    text-align: center;
+    font-size: 2em;
+    color: #00254c;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#footer {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-top: 0% !important;
+}
+#sujay {
+    background-color:white;
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#richard {
+    background-color: #eeeeee;
+    height: 80%;
+    width: 100%;
+}
