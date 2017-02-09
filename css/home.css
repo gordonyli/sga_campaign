@@ -1,3 +1,5 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
 html,
 body {
     height: 100%;
@@ -35,16 +37,27 @@ h2 {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
 .navbar {
-    background-color: white;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    margin-bottom: 5%;
-    border-radius: 0;
+    margin-bottom: 0px;
+    line-height: 80px;
+    height: 80px;
+}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+    line-height: 80px;
+    padding-top: 0;
 }
 
-
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
 header.carousel {
     position: relative;
     height: 80%;
@@ -139,13 +152,6 @@ header.carousel .fill {
     font-family: 'Montserrat', sans-serif;
     color: #eeb211;
     font-size: 20px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-.navbaritem {
-    text-align: center;
-    font-size: 2em;
-    color: #00254c;
     padding-top: 1%;
     padding-bottom: 1%;
 }
